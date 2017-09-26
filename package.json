@@ -2,13 +2,9 @@
   "name": "api-core",
   "version": "1.0.0",
   "description": "Nodejs api core",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "nodemon src/index.js",
-    "build": "cross-env babel -s true src -d build"
-  },
   "author": "https://github.com/patrenky",
   "license": "MIT",
+  "main": "src/index.js",
   "dependencies": {
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
@@ -20,5 +16,9 @@
     "cross-env": "3.2.3",
     "nodemon": "^1.12.1",
     "react-scripts": "^1.0.13"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "cross-env babel -s true src -d build"
   }
 }
